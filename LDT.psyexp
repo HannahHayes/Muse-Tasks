@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1470, 956]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="LDT" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="primeLDT">
+      <TextComponent name="primeDisplay">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="primeDisplay" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val=".05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$prime" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="stimulus">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stimulus" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$stimuli" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="keyResponse">
+        <Param val="'a','l'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="keyResponse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="8" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Press &quot;L&quot; on the keyboard if the words are related. &amp;#10;&amp;#10;Press &quot;A&quot; on the keyboard if the words are unrelated." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'prime': 'VENT', 'stimuli': 'AIR'}, {'prime': 'GOOD', 'stimuli': 'BAD'}, {'prime': 'KEG', 'stimuli': 'BEER'}, {'prime': 'COMB', 'stimuli': 'BRUSH'}, {'prime': 'CHILL', 'stimuli': 'COLD'}, {'prime': 'MOM', 'stimuli': 'DAD'}, {'prime': 'SOIL', 'stimuli': 'DIRT'}, {'prime': 'SKETCH', 'stimuli': 'DRAW'}, {'prime': 'YOLK', 'stimuli': 'EGG'}, {'prime': 'BRAWL', 'stimuli': 'FIGHT'}, {'prime': 'BLAZE', 'stimuli': 'FIRE'}, {'prime': 'MIST', 'stimuli': 'FOG'}, {'prime': 'PAL', 'stimuli': 'FRIEND'}, {'prime': 'COME', 'stimuli': 'GO'}, {'prime': 'LOW', 'stimuli': 'HIGH'}, {'prime': 'HOUSE', 'stimuli': 'HOME'}, {'prime': 'WIN', 'stimuli': 'LOSE'}, {'prime': 'DAY', 'stimuli': 'NIGHT'}, {'prime': 'INK', 'stimuli': 'PEN'}, {'prime': 'TUG', 'stimuli': 'PULL'}, {'prime': 'KING', 'stimuli': 'QUEEN'}, {'prime': 'FRIGHT', 'stimuli': 'SCARE'}, {'prime': 'YELL', 'stimuli': 'SCREAM'}, {'prime': 'TALL', 'stimuli': 'SHORT'}, {'prime': 'STAND', 'stimuli': 'SIT'}, {'prime': 'BROTH', 'stimuli': 'SOUP'}, {'prime': 'HALT', 'stimuli': 'STOP'}, {'prime': 'RIP', 'stimuli': 'TEAR'}, {'prime': 'THICK', 'stimuli': 'THIN'}, {'prime': 'LOOSE', 'stimuli': 'TIGHT'}, {'prime': False, 'stimuli': True}, {'prime': 'EAST', 'stimuli': 'WEST'}, {'prime': 'CORK', 'stimuli': 'WINE'}, {'prime': 'SUBTRACT', 'stimuli': 'ADD'}, {'prime': 'SALOON', 'stimuli': 'BAR'}, {'prime': 'PEDAL', 'stimuli': 'BIKE'}, {'prime': 'FRACTURE', 'stimuli': 'BREAK'}, {'prime': 'CONSTRUCT', 'stimuli': 'BUILD'}, {'prime': 'ICING', 'stimuli': 'CAKE'}, {'prime': 'ALTER', 'stimuli': 'CHANGE'}, {'prime': 'SELECT', 'stimuli': 'CHOOSE'}, {'prime': 'OPEN', 'stimuli': 'CLOSE'}, {'prime': 'SOFA', 'stimuli': 'COUCH'}, {'prime': 'REPAIR', 'stimuli': 'FIX'}, {'prime': 'EMPTY', 'stimuli': 'FULL'}, {'prime': 'ASSIST', 'stimuli': 'HELP'}, {'prime': 'ACRE', 'stimuli': 'LAND'}, {'prime': 'GIGGLE', 'stimuli': 'LAUGH'}, {'prime': 'NOISY', 'stimuli': 'LOUD'}, {'prime': 'BUTCHER', 'stimuli': 'MEAT'}, {'prime': 'AIRPORT', 'stimuli': 'PLANE'}, {'prime': 'HANDBAG', 'stimuli': 'PURSE'}, {'prime': 'BOULDER', 'stimuli': 'ROCK'}, {'prime': 'ODOR', 'stimuli': 'SMELL'}, {'prime': 'INSTRUCT', 'stimuli': 'TEACH'}, {'prime': 'OBSERVE', 'stimuli': 'WATCH'}, {'prime': 'FRONT', 'stimuli': 'BACK'}, {'prime': 'SAND', 'stimuli': 'BEACH'}, {'prime': 'GIRL', 'stimuli': 'BOY'}, {'prime': 'SHRUB', 'stimuli': 'BUSH'}, {'prime': 'CHEF', 'stimuli': 'COOK'}, {'prime': 'WEEP', 'stimuli': 'CRY'}, {'prime': 'DUSK', 'stimuli': 'DAWN'}, {'prime': 'KNOB', 'stimuli': 'DOOR'}, {'prime': 'DINE', 'stimuli': 'EAT'}, {'prime': 'TOUCH', 'stimuli': 'FEEL'}, {'prime': 'SEEK', 'stimuli': 'FIND'}, {'prime': 'LAST', 'stimuli': 'FIRST'}, {'prime': 'SPOON', 'stimuli': 'FORK'}, {'prime': 'FUEL', 'stimuli': 'GAS'}, {'prime': 'BRIDE', 'stimuli': 'GROOM'}, {'prime': 'GRASP', 'stimuli': 'HOLD'}, {'prime': 'LEAP', 'stimuli': 'JUMP'}, {'prime': 'BLEND', 'stimuli': 'MIX'}, {'prime': 'NEW', 'stimuli': 'OLD'}, {'prime': 'RICH', 'stimuli': 'POOR'}, {'prime': 'SHOVE', 'stimuli': 'PUSH'}, {'prime': 'JOG', 'stimuli': 'RUN'}, {'prime': 'ITCH', 'stimuli': 'SCRATCH'}, {'prime': 'LOOK', 'stimuli': 'SEE'}, {'prime': 'ILL', 'stimuli': 'SICK'}, {'prime': 'NAP', 'stimuli': 'SLEEP'}, {'prime': 'NORTH', 'stimuli': 'SOUTH'}, {'prime': 'QUIZ', 'stimuli': 'TEST'}, {'prime': 'TOSS', 'stimuli': 'THROW'}, {'prime': 'CLOCK', 'stimuli': 'TIME'}, {'prime': 'SCALE', 'stimuli': 'WEIGHT'}, {'prime': 'BREEZE', 'stimuli': 'WIND'}, {'prime': 'BEST', 'stimuli': 'WORST'}, {'prime': 'REQUEST', 'stimuli': 'ASK'}, {'prime': 'MATTRESS', 'stimuli': 'BED'}, {'prime': 'CARDBOARD', 'stimuli': 'BOX'}, {'prime': 'BEETLE', 'stimuli': 'BUG'}, {'prime': 'PURCHASE', 'stimuli': 'BUY'}, {'prime': 'TABLE', 'stimuli': 'CHAIR'}, {'prime': 'CHEDDAR', 'stimuli': 'CHEESE'}, {'prime': 'SPOTLESS', 'stimuli': 'CLEAN'}, {'prime': 'STUMBLE', 'stimuli': 'FALL'}, {'prime': 'BANNER', 'stimuli': 'FLAG'}, {'prime': 'LISTEN', 'stimuli': 'HEAR'}, {'prime': 'SPICY', 'stimuli': 'HOT'}, {'prime': 'TARDY', 'stimuli': 'LATE'}, {'prime': 'VACATE', 'stimuli': 'LEAVE'}, {'prime': 'ANGRY', 'stimuli': 'MAD'}, {'prime': 'CASHEW', 'stimuli': 'NUT'}, {'prime': 'CHLORINE', 'stimuli': 'POOL'}, {'prime': 'UNCOOKED', 'stimuli': 'RAW'}, {'prime': 'TINY', 'stimuli': 'SMALL'}, {'prime': 'DISCUSS', 'stimuli': 'TALK'}, {'prime': 'FLAVOR', 'stimuli': 'TASTE'}, {'prime': 'ATTEMPT', 'stimuli': 'TRY'}, {'prime': 'LABOR', 'stimuli': 'WORK'}, {'prime': 'HOUSE', 'stimuli': 'AIR'}, {'prime': 'SOIL', 'stimuli': 'BAD'}, {'prime': 'COMB', 'stimuli': 'BEER'}, {'prime': 'LOOSE', 'stimuli': 'BRUSH'}, {'prime': 'WIN', 'stimuli': 'COLD'}, {'prime': 'COME', 'stimuli': 'DAD'}, {'prime': 'KEG', 'stimuli': 'DIRT'}, {'prime': 'STAND', 'stimuli': 'DRAW'}, {'prime': False, 'stimuli': 'EGG'}, {'prime': 'MIST', 'stimuli': 'FIGHT'}, {'prime': 'YOLK', 'stimuli': 'FIRE'}, {'prime': 'BROTH', 'stimuli': 'FOG'}, {'prime': 'RIP', 'stimuli': 'FRIEND'}, {'prime': 'DAY', 'stimuli': 'GO'}, {'prime': 'PAL', 'stimuli': 'HIGH'}, {'prime': 'CORK', 'stimuli': 'HOME'}, {'prime': 'TALL', 'stimuli': 'LOSE'}, {'prime': 'INK', 'stimuli': 'NIGHT'}, {'prime': 'MOM', 'stimuli': 'PEN'}, {'prime': 'SKETCH', 'stimuli': 'PULL'}, {'prime': 'VENT', 'stimuli': 'QUEEN'}, {'prime': 'EAST', 'stimuli': 'SCARE'}, {'prime': 'TUG', 'stimuli': 'SCREAM'}, {'prime': 'FRIGHT', 'stimuli': 'SHORT'}, {'prime': 'THICK', 'stimuli': 'SIT'}, {'prime': 'YELL', 'stimuli': 'SOUP'}, {'prime': 'LOW', 'stimuli': 'STOP'}, {'prime': 'KING', 'stimuli': 'TEAR'}, {'prime': 'HALT', 'stimuli': 'THIN'}, {'prime': 'CHILL', 'stimuli': 'TIGHT'}, {'prime': 'BRAWL', 'stimuli': True}, {'prime': 'GOOD', 'stimuli': 'WEST'}, {'prime': 'BLAZE', 'stimuli': 'WINE'}, {'prime': 'PEDAL', 'stimuli': 'ADD'}, {'prime': 'ACRE', 'stimuli': 'BAR'}, {'prime': 'ICING', 'stimuli': 'BIKE'}, {'prime': 'HANDBAG', 'stimuli': 'BREAK'}, {'prime': 'SELECT', 'stimuli': 'BUILD'}, {'prime': 'AIRPORT', 'stimuli': 'CAKE'}, {'prime': 'SALOON', 'stimuli': 'CHANGE'}, {'prime': 'BUTCHER', 'stimuli': 'CHOOSE'}, {'prime': 'ODOR', 'stimuli': 'CLOSE'}, {'prime': 'SUBTRACT', 'stimuli': 'COUCH'}, {'prime': 'OBSERVE', 'stimuli': 'FIX'}, {'prime': 'GIGGLE', 'stimuli': 'FULL'}, {'prime': 'EMPTY', 'stimuli': 'HELP'}, {'prime': 'SOFA', 'stimuli': 'LAND'}, {'prime': 'CONSTRUCT', 'stimuli': 'LAUGH'}, {'prime': 'REPAIR', 'stimuli': 'LOUD'}, {'prime': 'OPEN', 'stimuli': 'MEAT'}, {'prime': 'INSTRUCT', 'stimuli': 'PLANE'}, {'prime': 'NOISY', 'stimuli': 'PURSE'}, {'prime': 'ASSIST', 'stimuli': 'ROCK'}, {'prime': 'ALTER', 'stimuli': 'SMELL'}, {'prime': 'FRACTURE', 'stimuli': 'TEACH'}, {'prime': 'BOULDER', 'stimuli': 'WATCH'}, {'prime': 'SAND', 'stimuli': 'BACK'}, {'prime': 'SHRUB', 'stimuli': 'BEACH'}, {'prime': 'DUSK', 'stimuli': 'BOY'}, {'prime': 'LAST', 'stimuli': 'BUSH'}, {'prime': 'ITCH', 'stimuli': 'COOK'}, {'prime': 'GRASP', 'stimuli': 'CRY'}, {'prime': 'BRIDE', 'stimuli': 'DAWN'}, {'prime': 'JOG', 'stimuli': 'DOOR'}, {'prime': 'SCALE', 'stimuli': 'EAT'}, {'prime': 'SHOVE', 'stimuli': 'FEEL'}, {'prime': 'SPOON', 'stimuli': 'FIND'}, {'prime': 'DINE', 'stimuli': 'FIRST'}, {'prime': 'GIRL', 'stimuli': 'FORK'}, {'prime': 'CLOCK', 'stimuli': 'GAS'}, {'prime': 'WEEP', 'stimuli': 'GROOM'}, {'prime': 'RICH', 'stimuli': 'HOLD'}, {'prime': 'NEW', 'stimuli': 'JUMP'}, {'prime': 'FRONT', 'stimuli': 'MIX'}, {'prime': 'SEEK', 'stimuli': 'OLD'}, {'prime': 'BREEZE', 'stimuli': 'POOR'}, {'prime': 'QUIZ', 'stimuli': 'PUSH'}, {'prime': 'TOUCH', 'stimuli': 'RUN'}, {'prime': 'TOSS', 'stimuli': 'SCRATCH'}, {'prime': 'FUEL', 'stimuli': 'SEE'}, {'prime': 'BEST', 'stimuli': 'SICK'}, {'prime': 'LOOK', 'stimuli': 'SLEEP'}, {'prime': 'CHEF', 'stimuli': 'SOUTH'}, {'prime': 'KNOB', 'stimuli': 'TEST'}, {'prime': 'ILL', 'stimuli': 'THROW'}, {'prime': 'NORTH', 'stimuli': 'TIME'}, {'prime': 'BLEND', 'stimuli': 'WEIGHT'}, {'prime': 'NAP', 'stimuli': 'WIND'}, {'prime': 'LEAP', 'stimuli': 'WORST'}, {'prime': 'TINY', 'stimuli': 'ASK'}, {'prime': 'CASHEW', 'stimuli': 'BED'}, {'prime': 'SPOTLESS', 'stimuli': 'BOX'}, {'prime': 'ATTEMPT', 'stimuli': 'BUG'}, {'prime': 'SPICY', 'stimuli': 'BUY'}, {'prime': 'LABOR', 'stimuli': 'CHAIR'}, {'prime': 'VACATE', 'stimuli': 'CHEESE'}, {'prime': 'REQUEST', 'stimuli': 'CLEAN'}, {'prime': 'PURCHASE', 'stimuli': 'FALL'}, {'prime': 'LISTEN', 'stimuli': 'FLAG'}, {'prime': 'FLAVOR', 'stimuli': 'HEAR'}, {'prime': 'STUMBLE', 'stimuli': 'HOT'}, {'prime': 'MATTRESS', 'stimuli': 'LATE'}, {'prime': 'DISCUSS', 'stimuli': 'LEAVE'}, {'prime': 'CHEDDAR', 'stimuli': 'MAD'}, {'prime': 'CHLORINE', 'stimuli': 'NUT'}, {'prime': 'ANGRY', 'stimuli': 'POOL'}, {'prime': 'TARDY', 'stimuli': 'RAW'}, {'prime': 'UNCOOKED', 'stimuli': 'SMALL'}, {'prime': 'BEETLE', 'stimuli': 'TALK'}, {'prime': 'BANNER', 'stimuli': 'TASTE'}, {'prime': 'CARDBOARD', 'stimuli': 'TRY'}, {'prime': 'TABLE', 'stimuli': 'WORK'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="LDTstimuli.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="primeLDT"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
